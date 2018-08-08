@@ -1,0 +1,79 @@
+.hakim-navbar1{
+padding-top: 6px;
+padding-bottom:6px;
+}
+.hakim-navbar2{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.color{
+  color: Blue;
+}
+.navbar-nav > li{
+  padding-left:3px;
+  padding-right:3px;
+}
+navbar-nav > li{
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.dropdown{
+  display: block;
+
+}
+
+.nav1 {
+
+  box-shadow: 5px 4px 5px #000;
+}
+
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.me{
+  margin-right: 100px
+}
+.hakim-button{
+  margin-right: 10px;
+
+}
+.hakim-awesome{
+  padding-left: 10px;
+  border-left: 1px solid #969696;
+  padding-right: 50px;
+}
+.btn-cat{
+  background: #3498db;
+  color:white;
+}
+
+.hakim-slider{
+  background: #E4E4E4;
+
+}
+.shop-content{
+  padding-left: 60px;
+  padding-right: 300px
+}
+.prix{
+  color: red;
+  font-weight: bold;
+}
+.items{
+  padding-left: 20px;
+}
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #202020;
+  text-align:center;
+}
+.Copyright{
+  color:white;
+}
