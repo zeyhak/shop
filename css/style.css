@@ -13,10 +13,6 @@ padding-bottom: 20px;
   padding-left:3px;
   padding-right:3px;
 }
-navbar-nav > li{
-  margin-left:30px;
-  margin-right:30px;
-}
 
 .dropdown{
   display: block;
@@ -37,7 +33,7 @@ navbar-nav > li{
     display: block;
 }
 .me{
-  margin-right: 100px
+  margin-right: 100px;
 }
 .hakim-button{
   margin-right: 10px;
@@ -55,11 +51,23 @@ navbar-nav > li{
 
 .hakim-slider{
   background: #E4E4E4;
+  padding-bottom: 20px;
 
 }
+@media (max-width: 768px) {
+    #sidenav {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    #pagination {
+        display: none;
+    }
+}
+
 .shop-content{
-  padding-left: 60px;
-  padding-right: 300px
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .prix{
   color: red;
