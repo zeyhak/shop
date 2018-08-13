@@ -3,12 +3,13 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css"> <!--load all styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 300px)" href="css/paterns">
     <title>RamataShop</title>
   </head>
   <body>
@@ -20,10 +21,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Payer En Gros <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">PAYER EN GROS <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Whatsapp: +234 8029041124 |</a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link " href="#"> +229 94479921 |</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link" href="#"> +228 92107157</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">FAQ</a>
@@ -39,7 +48,7 @@
           <a class="navbar-brand " href="#"><img src="images/ramatdigitalservice2.png" width="40" height="40" class="d-inline-block align-top"alt=""><span class="color">RamataShop</span></a>
           <form class="form-inline">
             <div class="form-group">
-              <input class="form-control me" type="search" placeholder="Rechercher un produit, categorie ou une marque" aria-label="Search">
+              <input class="form-control me" type="text" placeholder="Rechercher un produit" aria-label="Search" name="Search">
             </div>
             <button class="hakim-button btn btn-cat btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             <div class="form-group hakim-awesome">
@@ -190,9 +199,9 @@
     </div>
     <br>
     <div class="shop-content">
-      <div class="container">
+      <div class="container zey">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3" id="sidenav">
               <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action active disabled">
                   <h6>Maison</h6>
@@ -378,7 +387,7 @@
                 </div>
               </div>
               <nav aria-label="Page navigation" class="text-xs-center">
-                <ul class="pagination pagination-lg justify-content-center" style="margin:20px 0">
+                <ul class="pagination pagination-lg justify-content-center" style="margin:20px 0" id="pagination">
                   <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                   <li class="page-item"><a class="page-link" href="#">1</a></li>
                   <li class="page-item"><a class="page-link" href="#">2</a></li>
